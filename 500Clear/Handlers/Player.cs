@@ -8,6 +8,9 @@ namespace Scp500Clear.Handlers
 {
     class Player
     {
+        /// <summary>
+        /// Disable the effects
+        /// </summary>
         public void MedicalItemUsed(UsedMedicalItemEventArgs ev)
         {
             if (ev.Item == ItemType.SCP500)
